@@ -1,0 +1,8 @@
+#ask for two numbers
+no1 = int(input("give me a number"))
+no2 = int(input("give me another number"))
+#if the first number is entered is larger than the second than the secind will be displayed before the first and vice versa
+if int(no1) < int(no2):
+    print(no2, no1)
+else:
+    print(no2, no1)
