@@ -1,0 +1,6 @@
+#this program asks you to type in a number, and it must be lower that 20
+num1 = int(input("choose a number under 20"))
+if num1 < 20:
+    print("well done")
+else:
+    print("you stupid idiot!" ,num1,"isn't smaller than 20!")
