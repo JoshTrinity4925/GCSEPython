@@ -1,0 +1,32 @@
+#data types
+
+#CRIBS
+
+Characdter = "y"
+real_Float = 12.333
+Integer = 444
+Boolean = true
+#Booleans must have a capital letter e.g. True, False
+string = "hello123$$$
+
+#it is possible to do maths with floats and integers
+#it is not possible to do maths with strings or characters
+#example
+
+num1 = 20 #int
+num2 = 30 #int
+total = num1 + num2
+print(total)
+
+num3 = 20.1 #float
+num4 = 30.9 #float
+total = num3 + num4
+print(total)
+
+num5 = "20" #strings
+num6 = "30" #strings
+total = num5 + num6
+print(total)
+#you cannot add strings or characters
+#Instead, the adds symbol glues them together
+#But we don't call it glue, we call it concentration
