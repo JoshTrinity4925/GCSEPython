@@ -1,0 +1,7 @@
+name1 = str(input("What is your first name?"))
+if len(name1) < 6:
+    name2 = str(input("What is your last name?"))
+    FullName1 = name1 + name2
+    print(name1.upper())
+else:
+    print(name1.lower())
