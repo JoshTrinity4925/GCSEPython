@@ -1,0 +1,6 @@
+FirstName1 = str(input("What is your name?"))
+LastName1 = str(input("What is your last name?"))
+Space = " "
+LFN1 = FirstName1.lower()
+LLN1 = LastName1.lower()
+print(LFN1 + Space + LLN1)
