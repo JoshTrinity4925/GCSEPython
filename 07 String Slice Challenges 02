@@ -1,0 +1,6 @@
+FirstName1 = str(input("What is your first name?"))
+LastName1 = str(input("What is your last name?"))
+FullName1 = FirstName1 + " " + LastName1
+FullNameLength1 = len(FullName1)
+print(FullName1 , "is your full name.")
+print("Your full name is " , FullNameLength1 , "letters long.")
