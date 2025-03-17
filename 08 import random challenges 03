@@ -1,0 +1,10 @@
+import random as r
+coin = " "
+CoinGuess = "no"
+while coin != CoinGuess:
+    coin = r.randint(1 , 2)
+    CoinGuess = int(input("Heads or Tails? type 1 for Heads and 2 for Tails"))
+    if coin != CoinGuess:
+        print("Unlucky, you didn't get it right, it was" , coin , "try agin")
+
+print("Well done, you got it right, it was" , coin)
