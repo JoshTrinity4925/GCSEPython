@@ -1,0 +1,4 @@
+import random as r
+
+num1 = r.randint(0 , 1000)
+print(num1)
