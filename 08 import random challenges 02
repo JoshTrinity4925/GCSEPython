@@ -1,0 +1,5 @@
+import random as r
+
+list1 = ["Red" , "White" , "Yellow" , "Green" , "Black"]
+CList1 = r.choice(list1)
+print(CList1)
