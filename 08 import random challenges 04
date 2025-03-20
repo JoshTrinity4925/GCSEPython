@@ -1,0 +1,13 @@
+import random as r
+number = " "
+NumGuess = "no"
+while number != NumGuess:
+    number = r.randint(1, 5)
+    NumGuess = int(input("Pick a number from 1 to 5"))
+    if NumGuess < 1:
+        print("Too low")
+    elif NumGuess > 5:
+        print("Too High")
+    elif number != NumGuess :
+        print("Unlucky, I chose" , number)
+print("Well done I chose" , number)
