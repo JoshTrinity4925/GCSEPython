@@ -1,0 +1,23 @@
+import random as r
+
+score = 0
+print("I am going to  do a simple math quiz")
+for i in range(5):
+    num1 = r.randint(1,1000)
+    num2 = r.randint(1,1000)
+    total = num1 + num2
+    guess = int(input(f"What is {num1} + {num2}?"))
+    if guess == total:
+        score = score + 1
+if score == 5:
+    print("Well done, you got full marks!")
+elif score == 4:
+    print("Nearly there, you got 4 out of 5!")
+elif score == 3:
+    print("Getting closer, you got 3 marks")
+elif score == 2:
+    print("Not good enough, you only got 2, keep trying")
+elif score == 1:
+    print("Unless your under 6 years old, your embarressing yourself, you got a measly 1 mark")
+else:
+    print("You stupid idiot, you are worthless, 0 marks is pathetic, you should be executed this instant!")
