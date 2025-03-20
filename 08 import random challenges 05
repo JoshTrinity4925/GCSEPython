@@ -1,0 +1,14 @@
+import random as r
+correct = False
+while correct == False:
+    RandomNumber = r.randint(1,10)
+    GuessNum = int(input("Guess a number between 1 and 10"))
+    if RandomNumber == GuessNum:
+        correct = True
+    elif RandomNumber != GuessNum:
+        print("No, it was" , RandomNumber , "try again")
+        if GuessNum > 10:
+            print("Next time try a number betweem 1 and 10")
+        elif GuessNum < 1:
+            print("Next time try a number between 1 and 10")
+print("Well done, it was" , RandomNumber)
