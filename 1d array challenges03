@@ -1,0 +1,13 @@
+party = []
+name1 = input("Who do you want at your party?")
+party.append(name1)
+name2 = input("Who else do you want at your party?")
+party.append(name2)
+name3 = input("Who else do you want at your party?")
+party.append(name3)
+Q = input("Do you want to invite anyone else? (Type Y to continue)")
+while Q == "Y":
+    name4 = input()
+    party.append(name4)
+    Q = input("Do you want to invite anyone else? (Type Y to continue")
+print(party)
