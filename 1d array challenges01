@@ -1,0 +1,3 @@
+cars = []
+cars.append(input("Give me some cars"))
+print(cars)
