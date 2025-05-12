@@ -1,0 +1,9 @@
+show1 = "breaking bad"
+show2 = "the crown"
+show3 = "top gear"
+show4 = "blue planet"
+TV = [show1, show2, show3, show4]
+print(TV)
+show5 = input("Give me another show")
+TV.append(show5)
+print(TV)
