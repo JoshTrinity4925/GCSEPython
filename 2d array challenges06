@@ -1,0 +1,13 @@
+a = 0
+b = 5
+c = 2
+
+EmptyArray = [[a for column in range(b)] for row in range(c)]
+print(EmptyArray)
+
+
+a = int(input("What number would you like to desplay?"))
+b = int(input("How man columns would you like to have?"))
+c = int(input("How many rows would you like to have?"))
+EmptyArray = [[a for column in range(b)] for row in range(c)]
+print(EmptyArray)
